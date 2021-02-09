@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    background-image: ;
+    background-image: url('/img/bg.jpg');
 }
 
 ol, ul {
@@ -537,7 +537,7 @@ html{
         font-weight: 900;
     }
     a.header_link:hover{
-        color:#114233;
+        color:#1a1c1d;
         text-decoration: none;
     }
     .content {
@@ -776,7 +776,7 @@ img.col{
     font-weight: 700; 
 }
 #desserts.row{
-    color:#1a1c1d;
+    color: #ffffff;
 }
 #alternativa.col{
     color:#1a1c1d;
@@ -789,7 +789,7 @@ img.col{
 #sandwich.col{
     font-size: 22px;
     font-weight: 700;
-    color: #1a1c1d; 
+    color: #ffffff; 
 }
 .liner{
     height: 3px;
@@ -797,13 +797,13 @@ img.col{
     border-radius: 3px;
 }
 #cold_drinks.row{
-    color:#1a1c1d;
+    color:#ffffff;
     font-weight: 700;
 }
 #cold_drinks.col, #hot_drinks.col{
     font-size: 28px;
     font-weight: 700;
-    color: #1a1c1d;
+    color: #ffffff;
     text-align: center;
     border: 3px solid #82c4cd;
     border-radius: 11px;
@@ -893,4 +893,5 @@ h1#anchor_1{
     font-size: 32px;
     font-weight: 900;
     padding: 15px 0px 15px 0px;
+    color: #ffffff;
 }
