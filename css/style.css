@@ -32,7 +32,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    background-image: url('/img/bg.jpg');
+    background-image: url('/img/bg.png');
+    background-size: 100%;
 }
 
 ol, ul {
@@ -437,7 +438,7 @@ html{
     bottom: 0;
 }
 .header_link{
-    color: rgb(23, 94, 73);
+    color:#ffffff;
     text-transform: uppercase;
     font-size: 24px;
     text-decoration: none;
@@ -458,7 +459,7 @@ html{
     }
     .header_burger span{
         position: absolute;
-        background-color: white;
+        background-color: #82c4cd;
         height: 6px;
         width: 30px;
         top: 12px;
@@ -469,7 +470,7 @@ html{
     .header_burger:before, 
     .header_burger:after{
         content: '';
-        background-color: white;
+        background-color: #82c4cd;
         position: absolute;
         width: 30px;
         height: 6px;
@@ -513,6 +514,7 @@ html{
         bottom: 50px;
         height: 100%;
         border-radius: 0px 0px 11px 11px;
+        background: url(/img/bg.png);
     }
     .header_list{
         display: block;
@@ -529,7 +531,7 @@ html{
     .header_list li {
         margin: 0px 0px 0px 0px;
         padding: 22px 0px 22px 0px;
-        background-color: #95c2b3;
+        background-color: #82c4cd;
         border-radius: 8px;
     }
     a.header_link{
@@ -702,6 +704,7 @@ html{
     width: 335px;
     text-align: center;
     padding: 0px 11px;
+    border-radius: 3px;
 }
 .content_menu{
     display: inline;
@@ -722,6 +725,7 @@ html{
     align-items:center;
     padding: 0px 22px;
     font-size: 18px;
+    color: #ffffff;
 }
 img.col{
     position: inline;
@@ -742,6 +746,7 @@ img.col{
 .col-3{
     font-size: 20px;
     font-weight: 700;
+    color: #82c4cd;
 }
 .col-7{
     font-size: 18px;
@@ -809,7 +814,12 @@ img.col{
     border-radius: 11px;
 }
 .col.col-11{
+    height: 56px;
+    color: #ffffff00;
+}
+.col.col-14{
     height: 11px;
+    color: #ffffff00;
 }
 .row#anchor_1,.row#anchor_2,.row#anchor_3,.row#anchor_4,.row#anchor_5{
 padding-bottom: 55px;
@@ -852,7 +862,7 @@ button:active, button:focus {
     width: 100%;
     z-index: 112;
     position: fixed;
-    background-color: #ffffff;
+    background-color: #1a1c1d;
     bottom: 0px;
     left: 0px;
     padding-left: 0px;
@@ -867,7 +877,7 @@ a.col.img{
     position: relative;
     align-items: center;
     text-decoration: none;
-    color: #1a1c1d;
+    color: #ffffff;
     text-align: center;
     font-weight: 700;
     padding-right: 0px;
